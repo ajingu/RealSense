@@ -1,4 +1,13 @@
 # Extension of RealSense Unity Wrapper
+## Aruco
+![aruco](https://user-images.githubusercontent.com/20081122/37756053-534381bc-2deb-11e8-88d8-45247ec93b5b.PNG)
+Using Aruco marker(OpenCVforUnity), the position and the pose of the device are estimated.  
+
+### caution
+[OpenCVForUnity](https://assetstore.unity.com/packages/tools/integration/opencv-for-unity-21088) asset is required to try this demo.  
+The asset should be set like below  
+`Assets/OpenCVForUnity`  
+
 ## PointCloud(RGBD)
 ![pointcloud](https://user-images.githubusercontent.com/20081122/36625678-89cf749a-1967-11e8-933a-bf39d626b4d5.PNG)
 
