@@ -1,14 +1,14 @@
 # Extension of RealSense Unity Wrapper
-## Aruco  
+## ArUco  
 ![aruco](https://user-images.githubusercontent.com/20081122/37756053-534381bc-2deb-11e8-88d8-45247ec93b5b.PNG)
-Using Aruco marker(OpenCVforUnity), the position and the pose of the device are estimated.  
+Using ArUco marker(OpenCVForUnity), the position and the pose of the device are estimated.  
   
 ![mesh](https://user-images.githubusercontent.com/20081122/37756058-5a5fc2e4-2deb-11e8-936d-8d2eb42c8caa.PNG)
   
 The mesh or the box is created by checking the bool value of **MeshDrawer** component.
 ![meshdrawer](https://user-images.githubusercontent.com/20081122/37756069-67db7634-2deb-11e8-823d-bd43807ec7f3.PNG)
   
-ArucoPointCloud object should be set like below.
+ArUcoPointCloud object should be set like below.
 ![arucopointcloud](https://user-images.githubusercontent.com/20081122/37756061-63731a70-2deb-11e8-8481-be7f238016fa.PNG)
 
 ### caution
