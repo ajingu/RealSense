@@ -12,8 +12,9 @@ ArUcoPointCloud object should be set like below.
 ![arucopointcloud](https://user-images.githubusercontent.com/20081122/37756061-63731a70-2deb-11e8-8481-be7f238016fa.PNG)
 
 ### caution
-[OpenCVForUnity](https://assetstore.unity.com/packages/tools/integration/opencv-for-unity-21088) asset is required to try this demo.  
-The asset should be set like `Assets/OpenCVForUnity`  
+・[OpenCVForUnity](https://assetstore.unity.com/packages/tools/integration/opencv-for-unity-21088) asset is required to try this demo. The asset should be set like `Assets/OpenCVForUnity`  
+  
+・**When some part of the marker can't be seen by the RealSense, this demo won't work well**. 
 
 ## PointCloud(RGBD)
 ![pointcloud](https://user-images.githubusercontent.com/20081122/36625678-89cf749a-1967-11e8-933a-bf39d626b4d5.PNG)
