@@ -27,6 +27,10 @@ ExportedObj/
 *.pidb.meta
 *.pdb.meta
 
+# Custom
+Assets/OpenCVForUnity/
+Assets/OpenCVForUnity.meta
+
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
 
