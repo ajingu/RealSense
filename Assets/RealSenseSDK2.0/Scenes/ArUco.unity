@@ -225,7 +225,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showMesh: 1
-  showBox: 0
+  showBox: 1
 --- !u!23 &753890687
 MeshRenderer:
   m_ObjectHideFlags: 0

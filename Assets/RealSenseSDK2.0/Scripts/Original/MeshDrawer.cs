@@ -53,9 +53,10 @@ namespace OpenCVForUnity
                 {
                     GameObject coordObj = Resources.Load<GameObject>("Box");
                     coordObj.transform.localScale = Vector3.one * markerLength;
-                    Vector3 norm = mesh.normals[0];
-                    Vector3 center = mesh.bounds.center + (norm.normalized * markerLength / 2);
-                    Instantiate(coordObj, center, Quaternion.identity);
+                    Vector3 norm = mesh.normals[0].normalized;
+                    Vector3 center = mesh.bounds.center + (norm * markerLength / 2);
+                    Quaternion q = Quaternion.FromToRotation(Vector3.up, norm);
+                    Instantiate(coordObj, center, q);
                 }
             }
         }
