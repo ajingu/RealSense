@@ -8,6 +8,10 @@ This demo requires [Steam VR Plugin](https://assetstore.unity.com/packages/templ
 Adding **\[SteamVR\] prefab** and **\[CameraRig\] prefab** to the scene, components should be set like below
 ![device1](https://user-images.githubusercontent.com/20081122/37893125-0946addc-3115-11e8-856a-54e8d49c2179.PNG)
 ![steamvr](https://user-images.githubusercontent.com/20081122/37893133-0d28affe-3115-11e8-9e81-06c30989853b.PNG)
+  
+  
+Also, **ViveInteractionManager component** should be set like below
+![viveinteractionmanager](https://user-images.githubusercontent.com/20081122/37894003-a2a8686a-3117-11e8-8359-0d72f85be6a7.PNG)
 
 ## ArUco  
 ![aruco](https://user-images.githubusercontent.com/20081122/37756053-534381bc-2deb-11e8-88d8-45247ec93b5b.PNG)
