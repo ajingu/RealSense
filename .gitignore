@@ -30,6 +30,9 @@ ExportedObj/
 # Custom
 Assets/OpenCVForUnity/
 Assets/OpenCVForUnity.meta
+Assets/SteamVR/
+Assets/SteamVR.meta
+
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
