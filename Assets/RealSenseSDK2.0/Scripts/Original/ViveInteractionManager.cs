@@ -43,8 +43,9 @@ public class ViveInteractionManager : MonoBehaviour {
 	{
 		_controller = SteamVR_Controller.Input ((int)controller.GetComponent<SteamVR_TrackedObject> ().index);
 
-		if (_controller.GetPressDown (SteamVR_Controller.ButtonMask.Touchpad)) {
-			multiplier = Mathf.Max (multiplier - _controller.GetAxis ().y * 0.1f, 0.1f);
+		if (_controller.GetPress (SteamVR_Controller.ButtonMask.Touchpad)) {
+			
+			multiplier = Mathf.Max (multiplier - _controller.GetAxis ().y * 0.03f, 0.1f);
 			//print ("pressed");
 		}
 

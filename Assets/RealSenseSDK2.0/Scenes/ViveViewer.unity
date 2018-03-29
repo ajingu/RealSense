@@ -244,7 +244,7 @@ MonoBehaviour:
   cameraRig: {fileID: 0}
   mainCam: {fileID: 0}
   controller: {fileID: 0}
-  radius: 0.5
+  radius: 2
 --- !u!1 &1883383867
 GameObject:
   m_ObjectHideFlags: 0
@@ -274,7 +274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 308e4be99bbeff4438c1dc6a8761579b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  showMesh: 0
+  showMesh: 1
   showBox: 1
 --- !u!23 &1883383869
 MeshRenderer:
