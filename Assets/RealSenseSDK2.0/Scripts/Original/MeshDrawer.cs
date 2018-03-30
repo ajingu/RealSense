@@ -56,7 +56,7 @@ namespace OpenCVForUnity
                     Vector3 norm = mesh.normals[0].normalized;
                     Vector3 center = mesh.bounds.center + (norm * markerLength / 2);
                     Quaternion q = Quaternion.FromToRotation(Vector3.up, norm);
-                    Instantiate(coordObj, center, q);
+					Instantiate(coordObj, center, q, this.gameObject.transform);
                 }
             }
         }
