@@ -5,13 +5,15 @@ This project is now handed over to [Inami Hiyama Laboratory](https://star.rcast.
 In progress
 ## Left to do
 
-### ・Complete registration of different RealSense coordinates
-In progress
-### ・Putting the multiple draw calls from each devices into one draw call
-In progress
+### Complete registration of different RealSense coordinates
+Although I use ArUco marker of [OpenCV for Unity](https://assetstore.unity.com/packages/tools/integration/opencv-for-unity-21088) to adjust different RealSense coordinates, each coordinate always shifts over a little from other coordinates.
 
-### ・Exception handling when the ArUco marker can't be found
-In progress
+### Putting the multiple draw calls from each devices into one draw call
+At this moment, every time one RealSense device is added, one drawcall to create point cloud is also added. Ideally, multiple point cloud data should be merged and only one drawcall should be sent to create merged point cloud.
+  
+### Exception handling when the ArUco marker can't be found
+Now, homography transformation matrix can be measured using first five frames of scene as long as the ArUco marker is in sight of RealSense. It will be thoughtful to implement Exception handling for the case of not being able to find any markers.
+
 ## Reference
 ・[Intel RealSense official Unity wrapper](https://github.com/IntelRealSense/librealsense/tree/development/wrappers/unity)  
 ・[How to setup RealSense(d400 series)](https://software.intel.com/en-us/realsense/d400/get-started)  
