@@ -1,7 +1,16 @@
 # About this project
+This project is now handed over to [Inami Hiyama Laboratory](https://star.rcast.u-tokyo.ac.jp/) from [Ajingu](https://github.com/ajingu) since April 2018.
+
 ## How to try each demo
 In progress
 ## Left to do
+
+### ・Complete registration of different RealSense coordinates
+In progress
+### ・Putting the multiple draw calls from each devices into one draw call
+In progress
+
+### ・Exception handling when the ArUco marker can't be found
 In progress
 ## Reference
 ・[Intel RealSense official Unity wrapper](https://github.com/IntelRealSense/librealsense/tree/development/wrappers/unity)  
