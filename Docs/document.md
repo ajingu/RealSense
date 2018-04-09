@@ -8,7 +8,7 @@ The component should be set like below.
 ![realsensedeviceoriginal](https://user-images.githubusercontent.com/20081122/38487682-f9bc2380-3c1b-11e8-9296-f63c702a24c1.PNG)
 
 ### Duplicate RealSenseDeviceOriginal Object and Images Object
-In accordance with the situation, duplicate objects.
+In accordance with the situation, duplicate objects.  
 ![duplicate](https://user-images.githubusercontent.com/20081122/38487679-f810c9c8-3c1b-11e8-95a6-1a0a8c0466e6.PNG)
 
 ### Insert serial number of each device into Requested Series label
