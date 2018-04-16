@@ -1,5 +1,5 @@
 # Extension of RealSense Unity Wrapper
-To try these demos and get more info,  please refer to [document.md](https://github.com/ajingu/RealSense/blob/feature/docs/Docs/document.md).
+To try these demos and get more info,  please refer to `Docs/document.md`.
 
 ## ViveViewer
 ![viveviewer](https://user-images.githubusercontent.com/20081122/37893129-0bd83e4e-3115-11e8-8fcb-9f377b79edde.PNG)
