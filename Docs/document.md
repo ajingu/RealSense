@@ -24,9 +24,19 @@ The component should be set like below.
 ### Install OpenCV for Unity Asset
 Install [OpenCV for Unity](https://assetstore.unity.com/packages/tools/integration/opencv-for-unity-21088) asset and set it like `Assets/OpenCVforUnity`.
 
+### Print ArUco marker
+Print an ArUco marker(uploaded to `Assets/RealSenseSDK2.0/Resources`).  
+This marker should be set on the **white paper**, or the marker won't be recognized correctly.  
+![marker_id1](https://user-images.githubusercontent.com/20081122/38797611-00cb0640-419a-11e8-98b6-51db682930ff.png)
+
 ### Add ArUcoPointCloud component
-The component should be set like below.
-![arucopointcloud](https://user-images.githubusercontent.com/20081122/37756061-63731a70-2deb-11e8-8481-be7f238016fa.PNG)
+The component should be set like below.  
+**MarkerLength** is the length(meter) of one side of the ArUco marker printed.  
+**Marker Id** is the ID of the ArUco marker.  
+
+![arucopointcloud](https://user-images.githubusercontent.com/20081122/37756061-63731a70-2deb-11e8-8481-be7f238016fa.PNG)  
+About the detail of the marker creation, please refer to [the official document](https://docs.opencv.org/3.1.0/d5/dae/tutorial_aruco_detection.html).
+
 
 ### Add MeshDrawer component
 You can change Whether to draw mesh or box on the marker by toggling the check state.
